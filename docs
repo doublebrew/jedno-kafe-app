@@ -1,0 +1,100 @@
+# Technická Dokumentace Webu
+
+## 1. Technologický Stack
+
+### Frontend
+- **Framework:** Next.js (React)
+- **Hosting:** Vercel
+
+### Backend
+- **Framework:** Medusa.js + NestJS
+- **Hosting:** Railway.app
+
+### Databáze
+- **Typ:** PostgreSQL
+- **Platforma:** Supabase
+
+### CMS
+- **Framework:** Strapi
+- **Hosting:** Railway.app
+
+### Platební Systém
+- **Poskytovatel:** Stripe
+- **Funkce:** Online platby přes Stripe API
+
+### Storage
+- **Platforma:** Cloudflare R2
+- **Účel:** CDN a hosting pro assety
+
+### Externí API Integrace
+- Fakturoid (fakturace)
+- Zásilkovna (doprava a logistika)
+
+## 2. Struktura Aplikace
+
+### E-shop
+- Kategorie produktů:
+  - Espresso
+  - Filtr
+  - Instantní káva
+  - Příslušenství
+- Sekce Kancelář s formulářem pro B2B spolupráci
+
+### Kavárny
+- Prezentace konceptu
+- Informace o 2 pobočkách
+- Fotogalerie
+- Otevírací doba
+
+### Workshopy
+- Nabídka workshopů
+- Kalendář termínů
+- Rezervační systém
+
+### Catering
+- Prezentace služeb
+- Objednávkový formulář
+
+### O nás
+- Firemní prezentace
+- Hodnoty a mise
+- USP (Unique Selling Proposition)
+
+### Velkoobchod (B2B)
+- Registrační systém
+- Přihlašování
+- Speciální B2B ceník
+- Velkoobchodní nabídky
+
+## 3. Plánovaný Rozvoj
+
+### Platby
+- Integrace GoPay
+- Integrace ComGate
+
+### Komunikace
+- SendGrid/Brevo pro e-mailové notifikace
+- Marketingové nástroje (Mailchimp, Klaviyo)
+
+### Analytika
+- Google Analytics
+- Metabase pro reporting
+
+### Správa
+- Administrace uživatelů
+- Systém rolí a oprávnění
+
+## 4. DevOps
+
+### Deployment
+- Frontend: Vercel (GitHub/GitLab CI/CD)
+- Backend: Railway CI/CD
+- Databáze: Supabase backup systém
+
+### Monitoring
+- Railway monitoring
+- Vercel analytics
+- Logování
+
+---
+*Poznámka: Tato dokumentace slouží jako základní přehled. Detailní implementační dokumentace je dostupná v samostatných sekcích.*
